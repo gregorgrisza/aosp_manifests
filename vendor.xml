@@ -6,5 +6,5 @@
         revision="master" />
 
 <!--    <project path="vendor/tools/emulator" name="aosp_tools" remote="aosp" revision="master" /> -->
-    <project path="vendor/docs" name="aosp_kh" remote="aosp" revision="master" />
+    <project path="vendor/docs" name="aosp_kh" remote="aosp" revision="main" />
 </manifest>
