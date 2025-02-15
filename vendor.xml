@@ -7,4 +7,6 @@
 
 <!--    <project path="vendor/tools/emulator" name="aosp_tools" remote="aosp" revision="master" /> -->
     <project path="vendor/docs" name="aosp_kh" remote="aosp" revision="main" />
+    <project path="vendor/v/mycar" name="aosp_vdev" remote="aosp" revision="main" />
+    <project path="vendor/v/hardware/interfaces/automotive/vehicle" name="aosp_vhal" remote="aosp" revision="main" />
 </manifest>
