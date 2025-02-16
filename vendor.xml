@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="aosp"
+    <remote name="vrepos"
         fetch="https://github.com/gregorgrisza"
         revision="master" />
 
-    <project path="vendor/docs" name="aosp_kh" remote="aosp" revision="main" />
-    <project path="vendor/v/mycar" name="aosp_vdev" remote="aosp" revision="main" />
-    <project path="vendor/v/hardware/interfaces/automotive/vehicle" name="aosp_vhal" remote="aosp" revision="main" />
-    <project path="vendor/v/tools" name="aosp_tools" remote="aosp" revision="main" />
+    <project path="vendor/docs" name="aosp_kh" remote="vrepos" revision="main" />
+    <project path="vendor/v/mycar" name="aosp_vdev" remote="vrepos" revision="main" />
+    <project path="vendor/v/hardware/interfaces/automotive/vehicle" name="aosp_vhal" remote="vrepos" revision="main" />
+    <project path="vendor/v/tools" name="aosp_tools" remote="vrepos" revision="main" />
 </manifest>
